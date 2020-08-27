@@ -1,0 +1,30 @@
+{
+  "name": "two-face-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badz0/two-face-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badz0/two-face-webpack/issues"
+  },
+  "homepage": "https://github.com/badz0/two-face-webpack#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
