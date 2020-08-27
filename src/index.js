@@ -1,7 +1,5 @@
-import users from './users';
-import './styles/index.css';
+import initUsers from './users/controller';
+import './styles.css';
 
-users().then((data) => {
-  console.log('data: ', data);
-});
-console.log('HELLO cursor');
+initUsers();
+
